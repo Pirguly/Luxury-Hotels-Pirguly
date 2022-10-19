@@ -1,0 +1,615 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;;
+    color:#14274a
+}
+@font-face {
+   
+    font-family : Adobe Garamond pro;
+    src: url(’../fonts/AGaramondPro-Bold.woff’) format(’woff’),
+    url(’../fonts/AGaramondPro-Bold.woff2’) format(’woff2’);
+    font-weight: bold;
+    font-style : normal;
+
+}
+
+
+.logo-title {
+
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+    color: #14274A;
+    text-transform: uppercase;
+}
+
+.h1,h2,h3{
+     font-family : Adobe Garamond pro, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header-intro{
+    height: 1080px;
+    color: #ffff;
+    background-image: url(../img/Group\ 89.png);
+    border:1px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 195px;
+}
+.navbar-items{
+    display: flex;
+}
+.navbar-link{
+    text-decoration: none;
+    color:inherit;  
+}
+.header-logo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 256px;
+    text-decoration: none;
+    color:#14274a;
+    background-color: #e0b973;
+    padding: 45px 0;
+    border-radius: 0 0 50px 50px;
+}
+.navbar-items{
+    list-style: none;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-link {
+    text-decoration: none;
+}
+.intro-items{
+    max-width: 700px;
+}
+.intro-items_title-wlc{
+ font-size: 50px;
+ line-height: 61px;
+ margin: 0;
+ text-transform: uppercase;
+}
+.intro-items_title-main{
+    font-family: Adobe Garamond pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 61px;
+    letter-spacing: 0.07cm;
+    margin: 0;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+}
+.intro-items_title-htl{
+    font-family: Adobe Garamond pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 154px;
+    line-height: 130px;
+    letter-spacing: 0.07cm;
+    margin: 0;
+    padding-bottom: 14px;
+     margin: 0;
+     text-transform: uppercase;
+}
+.intro-item_subtitle{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+.intro-btn-img{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.intro-btn-scroll{
+    padding-bottom: 80px;
+    padding: 24px 42px;
+    background-color:#e0b973;
+    border-radius:1px;
+    align-items:center;
+}
+    .intro-scroll{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.intro-btn {
+    align-self: center;
+    background-color:#e0b973;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 23px 33px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin: 100px;
+}
+.booking_container{
+    max-width: 1570px;
+    margin: auto;
+    margin-top: 83px;
+    margin-bottom: 100px;
+}
+.line{
+    height: 334px;
+    border-right:2px solid #14274a;
+    margin-right: 48px;
+}
+.booking_title{
+    align-items:center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 110px;
+    font-display: row
+      ;
+      text-align: center;
+}
+.booking_products{
+    margin-bottom: 115px;
+}
+.booking_ptoduct{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 118px;
+
+}
+.booking_products_1{
+    margin-bottom: 70px;
+}
+.booking_product_box{
+    max-width: 542px;
+    margin-right: 113px;
+}
+.booking_product_title{
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #14274A;
+    margin-bottom: 25px;
+}
+.booking_product_subtitle{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    color: #14274A;
+    margin-bottom: 30px;
+}
+.booking_product_btn{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    background-color:#e0b973;
+    color:#ffff;
+    padding: 20px 65px;
+    border:1px solid #ffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.booking_product_img{
+   background: rgba(20, 39, 74, 0.2);
+}
+.booking_review{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}.booking_review_title{
+    font-family: 'Adobe Garamond pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 26px;
+}
+.booking_review_text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+.booking_review_author {
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 23px;
+}
+.footer{
+    background-image:url(../img/Union3.png);
+    background-size:auto;
+    align-items:center;
+    color:#ffff;
+}
+.footer_container{
+    max-width: 1550px;
+    margin: auto;
+    padding-top: 144px;
+    padding-bottom: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.footer_links, .footer_contacts  {
+    list-style: none;
+}
+.footer_link{
+    color:inherit;
+    text-decoration: none;
+    
+}
+.hotel-name{
+    font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+.hotel-subname{
+    font-family: 'Adobe Garamond Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 11px;
+}
+.hotel_adress{
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+.hotel_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+
+}
+.footer_contact_name{
+    margin-left: 26px;
+
+}
+.footer_facebook{
+    margin-left: 35px;
+}
+.footer_contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_subscribe_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.footer_input{
+    padding: 15px 26px;
+    border:2px solid #e0b973;
+    outline: none;
+}
+.footer_subscribe_btn {
+    background-color:#e0b973;
+    color:#14274A;
+    padding: 16px 27px;
+    text-decoration: none;
+    padding: 17px;
+}
+.to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.up-arrow{
+    width: 50px;
+    height: 50px;
+}
+.sales{
+    position: relative;
+}
+.offer{
+    position: absolute;
+    right: -20px;
+    top: 30px;   
+    background-color: red;
+    color: #e0b973;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+.footer_bottom{
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking_product {
+    display: flex;
+}
+
+
+@media(max-width:1600px) {
+    /* sun icindakiler 1201px-den 16000px aralyk */
+.to-top,.header-logo,line{
+   display: none;
+}
+ .header_container{
+    padding-top: 60px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .line{
+    display: none;
+ }
+ .intro, .booking_product{
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ .booking-product_box{
+    margin-right: 0;
+    margin-bottom: 80px;
+ }
+ .footer{
+    background-image:none;
+    background-color:#14274A;
+ }
+ .footer_container{
+    max-width: 1200px;
+    flex-direction: column;
+
+ }
+ .footer_adress_hotels-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+ }
+ .footer_bottom{
+    width: 1200px;
+
+
+ }
+ .footer_subscribe_btn{
+    padding: 17px;
+ }
+ 
+}
+@media (max-width: 1200px) {
+    /* sun icindakiler 993px-den 1200px aralyk */
+    .footer_container,.header_container{
+        max-width: 707px;  
+    }
+    .footer_bottom{
+        width: 707px;
+    }
+    .footer_input{
+        padding: 11px 26px;
+        width: 320px;
+    }
+.footer_subscribe_btn{
+    padding: 13px;
+}
+    
+}
+@media (max-width: 992px){
+    /* sun icindakiler 768px-den 992px aralyk */
+    .navbar-items{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .intro-items_title-wlc{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .intro-items_title-main{
+        font-size: 96px;
+        line-height: 115px;
+    }
+    .intro-items_title-htl{
+        font-size: 40px;
+        line-height: 48px; 
+    }
+    .intro-item_subtitle{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .intro-btn-text{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .intro-btn-img{
+        width: 21px;
+        height: 18px;  
+    }
+    .intro-btn{
+        padding: 14px 26px;
+    }
+    .intro-scroll{
+        display: none;
+    }
+    .booking_product_title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .booking_product_subtitle {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .booking_product_btn{
+        font-size: 15px;
+        line-height: 18px;
+        padding: 11px 44px;
+    }
+    .boking_product_img{
+        width: 685px;
+
+    }
+    .booking_review_title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .booking_review_text{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .booking_review_author{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .booking_review_btn{
+        padding: 12px 15px;        
+    }
+}
+.header_burger{
+    display: none;
+}
+@media (max-width: 768px){
+    /* sun icindakiler 576px-den 768px aralyk */
+    .navbar-items,.offer{
+        display: none;
+    }
+    .header_burger{
+        display: block;
+        position: absolute;
+        right: 30px ;
+        cursor: pointer;
+    }
+    .footer_container,.header_container{
+        max-width: 500px;  
+    }
+    .footer_bottom{
+        width: 500px;
+    }
+    .booking_product_img{
+        width: 291px;
+    }
+    .footer_bottom,.footer_adress_hotels-name{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .footer_container{
+        padding-top: 40px;
+    }
+    .hotel_logo,.footer_adress_hotels-name,.footer-links,.footer_contacts{
+        margin-bottom: 40px;
+    }
+}
+.footer_input{
+    border-radius: 8px 0  0 8px;
+    width: 200px;
+}
+.footer_subscribe_btn{
+    position: absolute;
+    border-radius: 0 8px 8px 0;
+    border: 0px solid #e0b973 ;
+    font-weight: 300;
+    width: 60px;
+}
+@media (max-width: 576px){
+    /* sun icindakiler 480px-den 576px aralyk */
+.footer_container,.header_container,.booking_review{
+    max-width: 300px;  
+    }
+.booking_review{
+    margin: auto;
+    }
+.footer_bottom{
+     width: 300px;
+    }
+}
+.booking_product_img{
+    border-radius:10px;
+}
+@media(max-width:480px) {
+   /* sun icindakiler 320px-den 480px aralyk */ 
+    .intro-items_title-wlc{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .intro-items_title-main{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .intro-items_title-htl,.booking_product_title, .booking_review_title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .intro-items_subtitle, .intro-btn-text
+    .booking_product_subtitle,.booking_review_text{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .booking_title,.booking_review_author{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .booking_review{
+        text-align: center;
+    }
+    .intro-btn-img{
+        margin-right: 10px;
+    }
+    .header-intro{
+        height: 768px;
+    }
+    .booking_product_btn{
+        padding: 11px 24px;
+    }
+    .footer_container{
+        margin: auto;
+    }
+    .footer_bottom{
+        width: 100%;
+    }
+    .footer_input{
+        padding: 9px 14px;
+    }
+    .footer_subscribe_btn{
+        padding: 11px;
+    
+    }
+}
